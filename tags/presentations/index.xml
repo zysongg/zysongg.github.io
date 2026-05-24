@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Presentations |</title><link>https://example.com/tags/presentations/</link><atom:link href="https://example.com/tags/presentations/index.xml" rel="self" type="application/rss+xml"/><description>Presentations</description><generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate><image><url>https://example.com/media/icon_hu_da05098ef60dc2e7.png</url><title>Presentations</title><link>https://example.com/tags/presentations/</link></image><item><title>Create Beautiful Presentations with Markdown</title><link>https://example.com/events/example/</link><pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate><guid>https://example.com/events/example/</guid><description>&lt;h2 id="-why-markdown-slides"&gt;🎯 Why Markdown Slides?&lt;/h2&gt;
+&lt;div class="callout flex px-4 py-3 mb-6 rounded-md border-l-4 bg-green-100 dark:bg-green-900 border-green-500"
+data-callout="success"
+data-callout-metadata=""&gt;
+&lt;span class="callout-icon pr-3 pt-1 text-green-600 dark:text-green-300"&gt;
+&lt;svg height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"&gt;&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12.75L11.25 15L15 9.75M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0"/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+&lt;div class="callout-content dark:text-neutral-300"&gt;
+&lt;div class="callout-title font-semibold mb-1"&gt;True Presentation Freedom&lt;/div&gt;
+&lt;div class="callout-body"&gt;&lt;p&gt;Unlike PowerPoint or Keynote, your presentations are &lt;strong&gt;future-proof&lt;/strong&gt;, &lt;strong&gt;portable&lt;/strong&gt;, and completely &lt;strong&gt;under your control&lt;/strong&gt;. No proprietary formats, no vendor lock-in, no subscription fees.&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3 id="the-problem-with-traditional-slides"&gt;The Problem with Traditional Slides&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;PowerPoint &amp;amp; Keynote:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;💸 Expensive licenses or subscriptions&lt;/li&gt;
+&lt;li&gt;🔒 Proprietary file formats (&lt;code&gt;.pptx&lt;/code&gt;, &lt;code&gt;.key&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;💻 Platform-specific (Windows/Mac only)&lt;/li&gt;
+&lt;li&gt;📦 Large binary files&lt;/li&gt;
+&lt;li&gt;🚫 Difficult to version control&lt;/li&gt;
+&lt;li&gt;😰 Lost formatting when sharing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Google Slides:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;☁️ Requires internet connection&lt;/li&gt;
+&lt;li&gt;🔐 Data stored on Google&amp;rsquo;s servers&lt;/li&gt;
+&lt;li&gt;📱 Limited offline editing&lt;/li&gt;
+&lt;li&gt;🎨 Formatting breaks when exporting&lt;/li&gt;
+&lt;li&gt;🔗 Dependency on Google&amp;rsquo;s platform&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="the-hugo-blox-solution"&gt;The Hugo Blox Solution&lt;/h3&gt;
+&lt;div class="callout flex px-4 py-3 mb-6 rounded-md border-l-4 bg-emerald-100 dark:bg-emerald-900 border-emerald-500"
+data-callout="tip"
+data-callout-metadata=""&gt;
+&lt;span class="callout-icon pr-3 pt-1 text-emerald-600 dark:text-emerald-300"&gt;
+&lt;svg height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"&gt;&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 18v-5.25m0 0a6 6 0 0 0 1.5-.189m-1.5.189a6 6 0 0 1-1.5-.189m3.75 7.478a12.1 12.1 0 0 1-4.5 0m3.75 2.383a14.4 14.4 0 0 1-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 1 0-7.517 0c.85.493 1.509 1.333 1.509 2.316V18"/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+&lt;div class="callout-content dark:text-neutral-300"&gt;
+&lt;div class="callout-title font-semibold mb-1"&gt;&lt;strong&gt;Markdown Changes Everything&lt;/strong&gt;&lt;/div&gt;
+&lt;div class="callout-body"&gt;&lt;p&gt;Write your presentations in simple, human-readable Markdown. Edit anywhere, present anywhere, own forever.&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id="-what-you-get"&gt;✨ What You Get&lt;/h2&gt;
+&lt;h3 id="-professional-design-zero-effort"&gt;🎨 Professional Design, Zero Effort&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;15+ Built-in Themes&lt;/strong&gt; — Black, white, sky, league, and more&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Syntax Highlighting&lt;/strong&gt; — Beautiful code blocks with 50+ languages&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Math Support&lt;/strong&gt; — LaTeX equations render perfectly: $E = mc^2$&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Responsive&lt;/strong&gt; — Looks great on any screen size&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="-write-in-plain-text"&gt;📝 Write in Plain Text&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-markdown" data-lang="markdown"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="gu"&gt;## My Slide Title
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="k"&gt;-&lt;/span&gt; Point one
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="k"&gt;-&lt;/span&gt; Point two
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="k"&gt;-&lt;/span&gt; Point three
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="s"&gt;```python
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;hello&lt;/span&gt;&lt;span class="p"&gt;():&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;World!&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="s"&gt;```&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;---
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;That&amp;rsquo;s it! No complex UI, no formatting headaches.&lt;/p&gt;
+&lt;h3 id="-edit-anywhere-anytime"&gt;🔄 Edit Anywhere, Anytime&lt;/h3&gt;
+&lt;div class="callout flex px-4 py-3 mb-6 rounded-md border-l-4 bg-purple-100 dark:bg-purple-900 border-purple-500"
+data-callout="important"
+data-callout-metadata=""&gt;
+&lt;span class="callout-icon pr-3 pt-1 text-purple-600 dark:text-purple-300"&gt;
+&lt;svg height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"&gt;&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 9v3.75m9-.75a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9 3.75h.008v.008H12z"/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+&lt;div class="callout-content dark:text-neutral-300"&gt;
+&lt;div class="callout-title font-semibold mb-1"&gt;&lt;strong&gt;Zero Lock-In&lt;/strong&gt;&lt;/div&gt;
+&lt;div class="callout-body"&gt;&lt;p&gt;Your slides are just Markdown files. Edit them in:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Ownable CMS&lt;/strong&gt; — Visual editing with live preview&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;VS Code&lt;/strong&gt; — With Markdown extensions&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Obsidian&lt;/strong&gt; — Note-taking app that speaks Markdown&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Typora&lt;/strong&gt; — Minimal distraction writing&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Any text editor&lt;/strong&gt; — Even Notepad works!&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="text-left"&gt;
+&lt;a
+id="button-ff5434c33e7f3eab1e3e4dedf86c1c6e"
+href="https://docs.hugoblox.com/guides/studio/"
+target="_blank"
+rel="noopener noreferrer"
+class="inline-flex items-center gap-2 font-medium no-underline transition-all duration-300 ease-out transform-gpu focus:outline-none focus:ring-4 focus:ring-offset-2 focus:ring-offset-white dark:focus:ring-offset-zinc-900 disabled:opacity-50 disabled:cursor-not-allowed disabled:pointer-events-none bg-gradient-to-br from-secondary-500 to-secondary-600 hover:from-secondary-600 hover:to-secondary-700 active:from-secondary-700 active:to-secondary-800 text-white shadow-lg shadow-secondary-500/25 hover:shadow-xl hover:shadow-secondary-500/30 hover:scale-105 active:scale-95 focus:ring-secondary-500/50 px-4 py-2 text-base rounded-xl"
+role="button"
+aria-label="Try Ownable CMS"
+&gt;
+&lt;span class="flex-shrink-0"&gt;
+&lt;svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"&gt;&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9.53 16.122a3 3 0 0 0-5.78 1.128a2.25 2.25 0 0 1-2.4 2.245a4.5 4.5 0 0 0 8.4-2.245c0-.399-.078-.78-.22-1.128m0 0a16 16 0 0 0 3.388-1.62m-5.043-.025a16 16 0 0 1 1.622-3.395m3.42 3.42a16 16 0 0 0 4.764-4.648l3.876-5.814a1.151 1.151 0 0 0-1.597-1.597L14.146 6.32a16 16 0 0 0-4.649 4.764m3.42 3.42a6.78 6.78 0 0 0-3.42-3.42"/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+&lt;span&gt;Try Ownable CMS&lt;/span&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;h3 id="-advanced-features"&gt;🎯 Advanced Features&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Dual Column Layouts:&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-markdown" data-lang="markdown"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&amp;lt;div style=&amp;#34;display: flex; gap: 2rem;&amp;#34;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &amp;lt;div style=&amp;#34;flex: 1;&amp;#34;&amp;gt;Column 1&amp;lt;/div&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &amp;lt;div style=&amp;#34;flex: 1;&amp;#34;&amp;gt;Column 2&amp;lt;/div&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&amp;lt;/div&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Fragment Animations:&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-markdown" data-lang="markdown"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;{{&amp;lt; fragment &amp;gt;}}Appear on click!{{&amp;lt; /fragment &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Speaker Notes:&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-markdown" data-lang="markdown"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Note: Your private notes here
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;(visible in presenter view only)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Vertical Slide Stacks:&lt;/strong&gt;
+Navigate down for sub-topics!&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="-getting-started-is-easy"&gt;🚀 Getting Started is Easy&lt;/h2&gt;
+&lt;div class="callout flex px-4 py-3 mb-6 rounded-md border-l-4 bg-purple-100 dark:bg-purple-900 border-purple-500"
+data-callout="example"
+data-callout-metadata=""&gt;
+&lt;span class="callout-icon pr-3 pt-1 text-purple-600 dark:text-purple-300"&gt;
+&lt;svg height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"&gt;&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9.75 3.104v5.714a2.25 2.25 0 0 1-.659 1.591L5 14.5M9.75 3.104q-.376.034-.75.082m.75-.082a24.3 24.3 0 0 1 4.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104q.377.034.75.082M19.8 15.3l-1.57.393A9.07 9.07 0 0 1 12 15a9.07 9.07 0 0 0-6.23-.693L5 14.5m14.8.8l1.402 1.402c1.232 1.232.65 3.318-1.067 3.611A48.3 48.3 0 0 1 12 21a48 48 0 0 1-8.135-.687c-1.718-.293-2.3-2.379-1.067-3.61L5 14.5"/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+&lt;div class="callout-content dark:text-neutral-300"&gt;
+&lt;div class="callout-title font-semibold mb-1"&gt;&lt;strong&gt;Create Your First Slide Deck in 3 Steps&lt;/strong&gt;&lt;/div&gt;
+&lt;div class="callout-body"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3 id="step-1-create-your-slides"&gt;Step 1: Create Your Slides&lt;/h3&gt;
+&lt;p&gt;Create &lt;code&gt;content/slides/my-talk/index.md&lt;/code&gt;:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-yaml" data-lang="yaml"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nn"&gt;---&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nt"&gt;title&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;My Amazing Talk&amp;#34;&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nt"&gt;type&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;slides&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nt"&gt;slides&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;theme&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;black&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nn"&gt;---&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c"&gt;# My Amazing Talk&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c"&gt;### Your Name&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nn"&gt;---&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c"&gt;## Main Points&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- &lt;span class="l"&gt;Point 1&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- &lt;span class="l"&gt;Point 2&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- &lt;span class="l"&gt;Point 3&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nn"&gt;---&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c"&gt;## Thank You!&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="step-2-link-to-your-event"&gt;Step 2: Link to Your Event&lt;/h3&gt;
+&lt;p&gt;In your event page (&lt;code&gt;content/events/my-event/index.md&lt;/code&gt;):&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-yaml" data-lang="yaml"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nn"&gt;---&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nt"&gt;title&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;My Conference Presentation&amp;#34;&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nt"&gt;slides&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;my-talk&amp;#34;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="c"&gt;# References the slides folder name&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nn"&gt;---&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="step-3-present"&gt;Step 3: Present!&lt;/h3&gt;
+&lt;p&gt;Your slides are automatically:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;✅ Embedded on the event page&lt;/li&gt;
+&lt;li&gt;✅ Available in fullscreen mode (click
+&lt;span class="inline-block pr-1"&gt;
+&lt;span style="height: 1em; transform: translateY(0.1em);"&gt;arrows-expand&lt;/span&gt;
+&lt;/span&gt; button)&lt;/li&gt;
+&lt;li&gt;✅ Accessible at a direct URL&lt;/li&gt;
+&lt;li&gt;✅ Keyboard-navigatable (→ ← keys)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="text-center"&gt;
+&lt;a
+id="button-3f098d62b17fdd4113898a5c7822d589"
+href="https://docs.hugoblox.com/guides/slides/"
+rel="noreferrer"
+class="inline-flex items-center gap-2 font-medium no-underline transition-all duration-300 ease-out transform-gpu focus:outline-none focus:ring-4 focus:ring-offset-2 focus:ring-offset-white dark:focus:ring-offset-zinc-900 disabled:opacity-50 disabled:cursor-not-allowed disabled:pointer-events-none bg-white dark:bg-zinc-900 border-2 border-primary-500 text-primary-600 dark:text-primary-400 hover:bg-primary-50 dark:hover:bg-primary-950/50 hover:border-primary-600 active:bg-primary-100 dark:active:bg-primary-950 shadow-md hover:shadow-lg hover:scale-105 active:scale-95 focus:ring-primary-500/50 px-4 py-2 text-base rounded-lg"
+role="button"
+aria-label="Read Full Documentation"
+&gt;
+&lt;span class="flex-shrink-0"&gt;
+&lt;svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"&gt;&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 6.042A8.97 8.97 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A9 9 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.97 8.97 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A9 9 0 0 0 18 18a8.97 8.97 0 0 0-6 2.292m0-14.25v14.25"/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+&lt;span&gt;Read Full Documentation&lt;/span&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id="-why-academics--researchers-love-it"&gt;💎 Why Academics &amp;amp; Researchers Love It&lt;/h2&gt;
+&lt;div class="callout flex px-4 py-3 mb-6 rounded-md border-l-4 bg-gray-100 dark:bg-gray-800 border-gray-500"
+data-callout="quote"
+data-callout-metadata=""&gt;
+&lt;span class="callout-icon pr-3 pt-1 text-gray-600 dark:text-gray-300"&gt;
+&lt;svg height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"&gt;&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M20.25 8.511c.884.284 1.5 1.128 1.5 2.097v4.286c0 1.136-.847 2.1-1.98 2.193q-.51.041-1.02.072v3.091l-3-3q-2.031 0-4.02-.163a2.1 2.1 0 0 1-.825-.242m9.345-8.334a2 2 0 0 0-.476-.095a48.6 48.6 0 0 0-8.048 0c-1.131.094-1.976 1.057-1.976 2.192v4.286c0 .837.46 1.58 1.155 1.951m9.345-8.334V6.637c0-1.621-1.152-3.026-2.76-3.235A48.5 48.5 0 0 0 11.25 3c-2.115 0-4.198.137-6.24.402c-1.608.209-2.76 1.614-2.76 3.235v6.226c0 1.621 1.152 3.026 2.76 3.235q.865.113 1.74.194V21l4.155-4.155"/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+&lt;div class="callout-content dark:text-neutral-300"&gt;
+&lt;div class="callout-title font-semibold mb-1"&gt;Quote&lt;/div&gt;
+&lt;div class="callout-body"&gt;&lt;p&gt;&amp;ldquo;I can finally version control my presentations with Git, collaborate using GitHub, and never worry about formatting breaking again. Game changer for reproducible research!&amp;rdquo;
+— &lt;em&gt;Dr. Xin Liu, MIT&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3 id="perfect-for-research"&gt;Perfect for Research&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Version Control&lt;/strong&gt; — Track every change with Git&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Collaboration&lt;/strong&gt; — Use GitHub pull requests for slide reviews&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reproducibility&lt;/strong&gt; — Slides are plain text, commit them with your code&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Open Science&lt;/strong&gt; — Share presentations on GitHub, no barriers&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Citations&lt;/strong&gt; — Include BibTeX references easily&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Jupyter Integration&lt;/strong&gt; — Embed notebooks and visualizations&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="perfect-for-teaching"&gt;Perfect for Teaching&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Reusable Content&lt;/strong&gt; — Mix and match slides across courses&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Student Contributions&lt;/strong&gt; — Students can submit slide PRs&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Live Coding&lt;/strong&gt; — Syntax highlighting for all languages&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Interactive Examples&lt;/strong&gt; — Embed interactive visualizations&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Accessible&lt;/strong&gt; — Keyboard navigation, screen reader friendly&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="-see-it-in-action"&gt;🎬 See It In Action&lt;/h2&gt;
+&lt;div class="callout flex px-4 py-3 mb-6 rounded-md border-l-4 bg-blue-100 dark:bg-blue-900 border-blue-500"
+data-callout="note"
+data-callout-metadata=""&gt;
+&lt;span class="callout-icon pr-3 pt-1 text-blue-600 dark:text-blue-300"&gt;
+&lt;svg height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"&gt;&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m16.862 4.487l1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L6.832 19.82a4.5 4.5 0 0 1-1.897 1.13l-2.685.8l.8-2.685a4.5 4.5 0 0 1 1.13-1.897zm0 0L19.5 7.125"/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+&lt;div class="callout-content dark:text-neutral-300"&gt;
+&lt;div class="callout-title font-semibold mb-1"&gt;Note&lt;/div&gt;
+&lt;div class="callout-body"&gt;&lt;p&gt;&lt;strong&gt;Try it now!&lt;/strong&gt; The slides embedded above demonstrate all these features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Code highlighting with Python&lt;/li&gt;
+&lt;li&gt;Mathematical equations with LaTeX&lt;/li&gt;
+&lt;li&gt;Dual column layouts (slides 4-6)&lt;/li&gt;
+&lt;li&gt;Fragment animations&lt;/li&gt;
+&lt;li&gt;Multiple themes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Click the
+&lt;span class="inline-block pr-1"&gt;
+&lt;span style="height: 1em; transform: translateY(0.1em);"&gt;arrows-expand&lt;/span&gt;
+&lt;/span&gt; &lt;strong&gt;fullscreen button&lt;/strong&gt; (top right) to experience presentation mode!&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3 id="live-features-to-try"&gt;Live Features to Try&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Navigate&lt;/strong&gt;: Use arrow keys (→ ←) or click controls&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fullscreen&lt;/strong&gt;: Click the expand button to go fullscreen&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Speaker Notes&lt;/strong&gt;: Press &lt;code&gt;S&lt;/code&gt; to open presenter view (try it!)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Overview&lt;/strong&gt;: Press &lt;code&gt;ESC&lt;/code&gt; to see all slides at once&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Search&lt;/strong&gt;: Press &lt;code&gt;/&lt;/code&gt; to search slide content&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zoom&lt;/strong&gt;: &lt;code&gt;Alt+Click&lt;/code&gt; to zoom into details&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="text-left"&gt;
+&lt;a
+id="button-7519dfcc27cf03dd985a63a0b9a6155b"
+href="https://example.com/slides/example/"
+target="_blank"
+rel="noopener"
+class="inline-flex items-center gap-2 font-medium no-underline transition-all duration-300 ease-out transform-gpu focus:outline-none focus:ring-4 focus:ring-offset-2 focus:ring-offset-white dark:focus:ring-offset-zinc-900 disabled:opacity-50 disabled:cursor-not-allowed disabled:pointer-events-none bg-transparent text-primary-600 dark:text-primary-400 hover:bg-primary-50 dark:hover:bg-primary-950/50 active:bg-primary-100 dark:active:bg-primary-950 hover:scale-105 active:scale-95 focus:ring-primary-500/50 px-4 py-2 text-base rounded-lg"
+role="button"
+aria-label="Open Slides in New Tab"
+&gt;
+&lt;span class="flex-shrink-0"&gt;
+&lt;span class="flex items-center justify-center leading-none text-lg"&gt;external-link&lt;/span&gt;
+&lt;/span&gt;
+&lt;span&gt;Open Slides in New Tab&lt;/span&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id="-comparison"&gt;🆚 Comparison&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Feature&lt;/th&gt;
+&lt;th&gt;PowerPoint&lt;/th&gt;
+&lt;th&gt;Google Slides&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;Hugo Blox&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Cost&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;$159.99/year&lt;/td&gt;
+&lt;td&gt;Free*&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Free Forever&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Format&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Binary (&lt;code&gt;.pptx&lt;/code&gt;)&lt;/td&gt;
+&lt;td&gt;Proprietary&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Plain Markdown&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Version Control&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;❌ Difficult&lt;/td&gt;
+&lt;td&gt;❌ Limited&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;✅ Git Native&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Offline Editing&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;✅ Yes&lt;/td&gt;
+&lt;td&gt;⚠️ Limited&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;✅ Fully Offline&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Platform Lock-in&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;⚠️ Microsoft&lt;/td&gt;
+&lt;td&gt;⚠️ Google&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;✅ None&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Code Highlighting&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;⚠️ Basic&lt;/td&gt;
+&lt;td&gt;⚠️ Limited&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;✅ 50+ Languages&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Math Equations&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;⚠️ Clunky&lt;/td&gt;
+&lt;td&gt;⚠️ Basic&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;✅ Full LaTeX&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Portability&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;❌ Poor&lt;/td&gt;
+&lt;td&gt;❌ Requires Google&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;✅ Works Anywhere&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Future-Proof&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;❌ Format changes&lt;/td&gt;
+&lt;td&gt;⚠️ API changes&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;✅ Plain Text Forever&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Open Source&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;❌ No&lt;/td&gt;
+&lt;td&gt;❌ No&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;✅ Yes&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;div class="callout flex px-4 py-3 mb-6 rounded-md border-l-4 bg-green-100 dark:bg-green-900 border-green-500"
+data-callout="success"
+data-callout-metadata=""&gt;
+&lt;span class="callout-icon pr-3 pt-1 text-green-600 dark:text-green-300"&gt;
+&lt;svg height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"&gt;&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12.75L11.25 15L15 9.75M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0"/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+&lt;div class="callout-content dark:text-neutral-300"&gt;
+&lt;div class="callout-title font-semibold mb-1"&gt;Success&lt;/div&gt;
+&lt;div class="callout-body"&gt;&lt;p&gt;&lt;strong&gt;Hugo Blox wins on freedom, portability, and long-term sustainability.&lt;/strong&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id="-advanced-capabilities"&gt;🛠️ Advanced Capabilities&lt;/h2&gt;
+&lt;h3 id="code-blocks-with-syntax-highlighting"&gt;Code Blocks with Syntax Highlighting&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;torch&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;torch.nn&lt;/span&gt; &lt;span class="k"&gt;as&lt;/span&gt; &lt;span class="nn"&gt;nn&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="k"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;Transformer&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;nn&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Module&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="fm"&gt;__init__&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;d_model&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;512&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;nhead&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;8&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nb"&gt;super&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="fm"&gt;__init__&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;attention&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;nn&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;MultiheadAttention&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;d_model&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;nhead&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;forward&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;attention&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;)[&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="mathematical-equations"&gt;Mathematical Equations&lt;/h3&gt;
+&lt;p&gt;Display equations with LaTeX:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-latex" data-lang="latex"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="sb"&gt;$$&lt;/span&gt;&lt;span class="nb"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nv"&gt;\nabla&lt;/span&gt;&lt;span class="nb"&gt; &lt;/span&gt;&lt;span class="nv"&gt;\times&lt;/span&gt;&lt;span class="nb"&gt; &lt;/span&gt;&lt;span class="nv"&gt;\vec&lt;/span&gt;&lt;span class="nb"&gt;{E} &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="nb"&gt; &lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nv"&gt;\frac&lt;/span&gt;&lt;span class="nb"&gt;{&lt;/span&gt;&lt;span class="nv"&gt;\partial&lt;/span&gt;&lt;span class="nb"&gt; &lt;/span&gt;&lt;span class="nv"&gt;\vec&lt;/span&gt;&lt;span class="nb"&gt;{B}}{&lt;/span&gt;&lt;span class="nv"&gt;\partial&lt;/span&gt;&lt;span class="nb"&gt; t}
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="s"&gt;$$&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="sb"&gt;$$&lt;/span&gt;&lt;span class="nb"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nv"&gt;\int&lt;/span&gt;&lt;span class="nb"&gt;_{&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nv"&gt;\infty&lt;/span&gt;&lt;span class="nb"&gt;}^{&lt;/span&gt;&lt;span class="nv"&gt;\infty&lt;/span&gt;&lt;span class="nb"&gt;} e^{&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nb"&gt;x^&lt;/span&gt;&lt;span class="m"&gt;2&lt;/span&gt;&lt;span class="nb"&gt;} dx &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="nb"&gt; &lt;/span&gt;&lt;span class="nv"&gt;\sqrt&lt;/span&gt;&lt;span class="nb"&gt;{&lt;/span&gt;&lt;span class="nv"&gt;\pi&lt;/span&gt;&lt;span class="nb"&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="s"&gt;$$&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="dual-column-layouts"&gt;Dual Column Layouts&lt;/h3&gt;
+&lt;p&gt;Perfect for before/after comparisons, code + explanation, or image + text:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-markdown" data-lang="markdown"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&amp;lt;div style=&amp;#34;display: flex; gap: 2rem;&amp;#34;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &amp;lt;div style=&amp;#34;flex: 1;&amp;#34;&amp;gt;Left content&amp;lt;/div&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &amp;lt;div style=&amp;#34;flex: 1;&amp;#34;&amp;gt;Right content&amp;lt;/div&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&amp;lt;/div&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;See slides 4-6 in the embedded presentation above for live examples!&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="-for-educators-teach-the-future"&gt;🎓 For Educators: Teach the Future&lt;/h2&gt;
+&lt;div class="callout flex px-4 py-3 mb-6 rounded-md border-l-4 bg-emerald-100 dark:bg-emerald-900 border-emerald-500"
+data-callout="tip"
+data-callout-metadata=""&gt;
+&lt;span class="callout-icon pr-3 pt-1 text-emerald-600 dark:text-emerald-300"&gt;
+&lt;svg height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"&gt;&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 18v-5.25m0 0a6 6 0 0 0 1.5-.189m-1.5.189a6 6 0 0 1-1.5-.189m3.75 7.478a12.1 12.1 0 0 1-4.5 0m3.75 2.383a14.4 14.4 0 0 1-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 1 0-7.517 0c.85.493 1.509 1.333 1.509 2.316V18"/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+&lt;div class="callout-content dark:text-neutral-300"&gt;
+&lt;div class="callout-title font-semibold mb-1"&gt;&lt;strong&gt;Empower Your Students&lt;/strong&gt;&lt;/div&gt;
+&lt;div class="callout-body"&gt;&lt;p&gt;Teaching with Hugo Blox means teaching modern, transferable skills:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Markdown (used everywhere: GitHub, Notion, Obsidian)&lt;/li&gt;
+&lt;li&gt;Version control (essential for careers)&lt;/li&gt;
+&lt;li&gt;Web technologies (HTML, CSS)&lt;/li&gt;
+&lt;li&gt;Reproducible science practices&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3 id="course-integration"&gt;Course Integration&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-markdown" data-lang="markdown"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;courses/
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;├── ml-101/
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;│ ├── lecture-1/
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;│ │ ├── index.md (slides)
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;│ │ └── notes.md
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;│ ├── lecture-2/
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;│ │ └── index.md
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;│ └── _index.md
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Each lecture gets its own slide deck, all version controlled, all editable by students as PRs.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="-join-the-community"&gt;🌍 Join the Community&lt;/h2&gt;
+&lt;div class="callout flex px-4 py-3 mb-6 rounded-md border-l-4 bg-purple-100 dark:bg-purple-900 border-purple-500"
+data-callout="important"
+data-callout-metadata=""&gt;
+&lt;span class="callout-icon pr-3 pt-1 text-purple-600 dark:text-purple-300"&gt;
+&lt;svg height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"&gt;&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 9v3.75m9-.75a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9 3.75h.008v.008H12z"/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+&lt;div class="callout-content dark:text-neutral-300"&gt;
+&lt;div class="callout-title font-semibold mb-1"&gt;&lt;strong&gt;Built by Academics, for Academics&lt;/strong&gt;&lt;/div&gt;
+&lt;div class="callout-body"&gt;&lt;p&gt;Hugo Blox is used by researchers at:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;🎓 Stanford, MIT, Harvard, Oxford, Cambridge&lt;/li&gt;
+&lt;li&gt;🏢 Google Research, Meta AI, OpenAI&lt;/li&gt;
+&lt;li&gt;🔬 CERN, NASA, NIH&lt;/li&gt;
+&lt;li&gt;🌐 Thousands of universities worldwide&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="text-center"&gt;
+&lt;a
+id="button-308ee88d3551ad6320a918a3255bbadf"
+href="https://github.com/HugoBlox/kit"
+rel="noreferrer"
+class="inline-flex items-center gap-2 font-medium no-underline transition-all duration-300 ease-out transform-gpu focus:outline-none focus:ring-4 focus:ring-offset-2 focus:ring-offset-white dark:focus:ring-offset-zinc-900 disabled:opacity-50 disabled:cursor-not-allowed disabled:pointer-events-none bg-gradient-to-br from-primary-500 to-primary-600 hover:from-primary-600 hover:to-primary-700 active:from-primary-700 active:to-primary-800 text-white shadow-lg shadow-primary-500/25 hover:shadow-xl hover:shadow-primary-500/30 hover:-translate-y-0.5 hover:scale-[1.02] active:scale-[0.98] focus:ring-primary-500/50 px-6 py-3 text-lg rounded-full"
+role="button"
+aria-label="Star on GitHub"
+&gt;
+&lt;span class="flex-shrink-0"&gt;
+&lt;svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"&gt;&lt;path fill="currentColor" d="M12 .297c-6.63 0-12 5.373-12 12c0 5.303 3.438 9.8 8.205 11.385c.6.113.82-.258.82-.577c0-.285-.01-1.04-.015-2.04c-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729c1.205.084 1.838 1.236 1.838 1.236c1.07 1.835 2.809 1.305 3.495.998c.108-.776.417-1.305.76-1.605c-2.665-.3-5.466-1.332-5.466-5.93c0-1.31.465-2.38 1.235-3.22c-.135-.303-.54-1.523.105-3.176c0 0 1.005-.322 3.3 1.23c.96-.267 1.98-.399 3-.405c1.02.006 2.04.138 3 .405c2.28-1.552 3.285-1.23 3.285-1.23c.645 1.653.24 2.873.12 3.176c.765.84 1.23 1.91 1.23 3.22c0 4.61-2.805 5.625-5.475 5.92c.42.36.81 1.096.81 2.22c0 1.606-.015 2.896-.015 3.286c0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+&lt;span&gt;Star on GitHub&lt;/span&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;h3 id="get-help--connect"&gt;Get Help &amp;amp; Connect&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;📚
+&lt;/li&gt;
+&lt;li&gt;💬
+&lt;/li&gt;
+&lt;li&gt;🐛
+&lt;/li&gt;
+&lt;li&gt;🐦
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="-ready-to-create"&gt;🚀 Ready to Create?&lt;/h2&gt;
+&lt;div class="callout flex px-4 py-3 mb-6 rounded-md border-l-4 bg-green-100 dark:bg-green-900 border-green-500"
+data-callout="success"
+data-callout-metadata=""&gt;
+&lt;span class="callout-icon pr-3 pt-1 text-green-600 dark:text-green-300"&gt;
+&lt;svg height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"&gt;&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12.75L11.25 15L15 9.75M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0"/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+&lt;div class="callout-content dark:text-neutral-300"&gt;
+&lt;div class="callout-title font-semibold mb-1"&gt;&lt;strong&gt;Start Building Beautiful Presentations Today&lt;/strong&gt;&lt;/div&gt;
+&lt;div class="callout-body"&gt;&lt;p&gt;No installation required. No account needed. Just Markdown and your creativity.&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="text-center"&gt;
+&lt;a
+id="button-bc0066d08faf40cb87d4d282bd3c10cb"
+href="https://docs.hugoblox.com/start/"
+rel="noreferrer"
+class="inline-flex items-center gap-2 font-medium no-underline transition-all duration-300 ease-out transform-gpu focus:outline-none focus:ring-4 focus:ring-offset-2 focus:ring-offset-white dark:focus:ring-offset-zinc-900 disabled:opacity-50 disabled:cursor-not-allowed disabled:pointer-events-none bg-gradient-to-br from-primary-500 to-primary-600 hover:from-primary-600 hover:to-primary-700 active:from-primary-700 active:to-primary-800 text-white shadow-lg shadow-primary-500/25 hover:shadow-xl hover:shadow-primary-500/30 hover:-translate-y-0.5 hover:scale-[1.02] active:scale-[0.98] focus:ring-primary-500/50 px-8 py-4 text-xl rounded-full"
+role="button"
+aria-label="Get Started Now"
+&gt;
+&lt;span class="flex-shrink-0"&gt;
+&lt;svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"&gt;&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.59 14.37q.159.666.16 1.38a6 6 0 0 1-6 6v-4.8m5.84-2.58a14.98 14.98 0 0 0 6.16-12.12A14.98 14.98 0 0 0 9.631 8.41m5.96 5.96a14.9 14.9 0 0 1-5.841 2.58m-.119-8.54a6 6 0 0 0-7.381 5.84h4.8m2.581-5.84a14.9 14.9 0 0 0-2.58 5.84m2.699 2.7q-.155.032-.311.06a15 15 0 0 1-2.448-2.448l.06-.312m-2.24 2.39a4.49 4.49 0 0 0-1.757 4.306q.341.054.696.054a4.5 4.5 0 0 0 3.61-1.812M16.5 9a1.5 1.5 0 1 1-3 0a1.5 1.5 0 0 1 3 0"/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+&lt;span&gt;Get Started Now&lt;/span&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;div class="text-center"&gt;
+&lt;a
+id="button-a6ddd37a8101e1f783cf49b7a3be18c7"
+href="https://docs.hugoblox.com/guides/studio/"
+rel="noreferrer"
+class="inline-flex items-center gap-2 font-medium no-underline transition-all duration-300 ease-out transform-gpu focus:outline-none focus:ring-4 focus:ring-offset-2 focus:ring-offset-white dark:focus:ring-offset-zinc-900 disabled:opacity-50 disabled:cursor-not-allowed disabled:pointer-events-none bg-gradient-to-br from-secondary-500 to-secondary-600 hover:from-secondary-600 hover:to-secondary-700 active:from-secondary-700 active:to-secondary-800 text-white shadow-lg shadow-secondary-500/25 hover:shadow-xl hover:shadow-secondary-500/30 hover:scale-105 active:scale-95 focus:ring-secondary-500/50 px-6 py-3 text-lg rounded-xl"
+role="button"
+aria-label="Try Ownable CMS"
+&gt;
+&lt;span class="flex-shrink-0"&gt;
+&lt;svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"&gt;&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9.53 16.122a3 3 0 0 0-5.78 1.128a2.25 2.25 0 0 1-2.4 2.245a4.5 4.5 0 0 0 8.4-2.245c0-.399-.078-.78-.22-1.128m0 0a16 16 0 0 0 3.388-1.62m-5.043-.025a16 16 0 0 1 1.622-3.395m3.42 3.42a16 16 0 0 0 4.764-4.648l3.876-5.814a1.151 1.151 0 0 0-1.597-1.597L14.146 6.32a16 16 0 0 0-4.649 4.764m3.42 3.42a6.78 6.78 0 0 0-3.42-3.42"/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+&lt;span&gt;Try Ownable CMS&lt;/span&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id="-additional-resources"&gt;📖 Additional Resources&lt;/h2&gt;
+&lt;h3 id="templates--examples"&gt;Templates &amp;amp; Examples&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!--
+- [Conference Talk Template](https://github.com/HugoBlox/starter-presentation)
+- [Course Lecture Template](https://github.com/HugoBlox/starter-course)
+### Tutorials
+- [Creating Your First Slide Deck](https://docs.hugoblox.com/tutorial/slides/)
+- [Advanced Slide Layouts](https://docs.hugoblox.com/reference/slides/)
+- [Customizing Themes](https://docs.hugoblox.com/customization/)
+- [Using Ownable CMS](https://docs.hugoblox.com/studio/)
+--&gt;
+&lt;h3 id="tips--tricks"&gt;Tips &amp;amp; Tricks&lt;/h3&gt;
+&lt;div class="callout flex px-4 py-3 mb-6 rounded-md border-l-4 bg-emerald-100 dark:bg-emerald-900 border-emerald-500"
+data-callout="tip"
+data-callout-metadata=""&gt;
+&lt;span class="callout-icon pr-3 pt-1 text-emerald-600 dark:text-emerald-300"&gt;
+&lt;svg height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"&gt;&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 18v-5.25m0 0a6 6 0 0 0 1.5-.189m-1.5.189a6 6 0 0 1-1.5-.189m3.75 7.478a12.1 12.1 0 0 1-4.5 0m3.75 2.383a14.4 14.4 0 0 1-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 1 0-7.517 0c.85.493 1.509 1.333 1.509 2.316V18"/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+&lt;div class="callout-content dark:text-neutral-300"&gt;
+&lt;div class="callout-title font-semibold mb-1"&gt;&lt;strong&gt;Pro Tips for Better Presentations&lt;/strong&gt;&lt;/div&gt;
+&lt;div class="callout-body"&gt;&lt;ol&gt;
+&lt;li&gt;Keep slides simple — one idea per slide&lt;/li&gt;
+&lt;li&gt;Use dual columns for comparisons&lt;/li&gt;
+&lt;li&gt;Add speaker notes with &lt;code&gt;Note:&lt;/code&gt; prefix&lt;/li&gt;
+&lt;li&gt;Test presenter view before your talk&lt;/li&gt;
+&lt;li&gt;Use fragments to control pacing&lt;/li&gt;
+&lt;li&gt;Version control your slides with Git&lt;/li&gt;
+&lt;li&gt;Share source files for reproducibility&lt;/li&gt;
+&lt;/ol&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Have questions?&lt;/strong&gt; Check out the
+or
+!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Want to contribute?&lt;/strong&gt; Hugo Blox is open source!
+.&lt;/p&gt;</description></item></channel></rss>

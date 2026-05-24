@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tutorials |</title><link>https://example.com/tags/tutorials/</link><atom:link href="https://example.com/tags/tutorials/index.xml" rel="self" type="application/rss+xml"/><description>Tutorials</description><generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 15 Jul 2024 00:00:00 +0000</lastBuildDate><image><url>https://example.com/media/icon_hu_da05098ef60dc2e7.png</url><title>Tutorials</title><link>https://example.com/tags/tutorials/</link></image><item><title>⚡️ Turn Jupyter Notebooks into Blog Posts</title><link>https://example.com/blog/notebook-onboarding/</link><pubDate>Mon, 15 Jul 2024 00:00:00 +0000</pubDate><guid>https://example.com/blog/notebook-onboarding/</guid><description>&lt;p&gt;As a researcher or data scientist, your work often lives in Jupyter Notebooks. But sharing those insights effectively usually means taking screenshots, messy copy-pasting, or exporting to PDF.&lt;/p&gt;
+&lt;p&gt;Hugo Blox changes that. With the &lt;code&gt;{{&amp;lt; notebook &amp;gt;}}&lt;/code&gt; shortcode, you can render your actual &lt;code&gt;.ipynb&lt;/code&gt; files directly as beautiful, interactive blog posts or project pages. Keep your code, outputs, and narrative in one place.&lt;/p&gt;
+&lt;details class="print:hidden xl:hidden" open&gt;
+&lt;summary&gt;Table of Contents&lt;/summary&gt;
+&lt;div class="text-sm"&gt;
+&lt;nav id="TableOfContents"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#why-publish-notebooks"&gt;Why publish notebooks?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#example-data-science-workflow"&gt;Example: Data Science Workflow&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#how-to-add-a-notebook"&gt;How to add a notebook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#next-steps"&gt;Next steps&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/div&gt;
+&lt;/details&gt;
+&lt;h2 id="why-publish-notebooks"&gt;Why publish notebooks?&lt;/h2&gt;
+&lt;div class="callout flex px-4 py-3 mb-6 rounded-md border-l-4 bg-emerald-100 dark:bg-emerald-900 border-emerald-500"
+data-callout="tip"
+data-callout-metadata=""&gt;
+&lt;span class="callout-icon pr-3 pt-1 text-emerald-600 dark:text-emerald-300"&gt;
+&lt;svg height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"&gt;&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 18v-5.25m0 0a6 6 0 0 0 1.5-.189m-1.5.189a6 6 0 0 1-1.5-.189m3.75 7.478a12.1 12.1 0 0 1-4.5 0m3.75 2.383a14.4 14.4 0 0 1-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 1 0-7.517 0c.85.493 1.509 1.333 1.509 2.316V18"/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+&lt;div class="callout-content dark:text-neutral-300"&gt;
+&lt;div class="callout-title font-semibold mb-1"&gt;Tip&lt;/div&gt;
+&lt;div class="callout-body"&gt;&lt;p&gt;&lt;strong&gt;Reproducible Research&lt;/strong&gt;: By publishing the actual notebook, you allow others to download and run your code, verifying your results and building upon your work.&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;No more screenshots&lt;/strong&gt; – Render crisp code and vector plots directly from your source.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Theme consistent&lt;/strong&gt; – Notebooks automatically adapt to your site&amp;rsquo;s theme (including dark mode).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Flexible sourcing&lt;/strong&gt; – Display notebooks from your &lt;code&gt;assets/&lt;/code&gt; folder, page bundles, or even directly from a remote GitHub URL.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Interactive&lt;/strong&gt; – Users can copy code blocks or download the full notebook to run locally.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="example-data-science-workflow"&gt;Example: Data Science Workflow&lt;/h2&gt;
+&lt;p&gt;Below is a live example of a notebook rendered right here in this post. Notice how the markdown, code, and outputs (text, HTML, and JSON) are all preserved and styled.&lt;/p&gt;
+&lt;div id="hb-notebook-86b2483a72d99021c62bf6617361405b" class="hb-notebook not-prose" data-hb-component="notebook" aria-label="Notebook Launch Readiness Analysis" style="--hb-notebook-output-max-height:26rem;"&gt;
+&lt;div class="hb-notebook-header"&gt;
+&lt;div class="hb-notebook-heading"&gt;
+&lt;p class="hb-notebook-title"&gt;Launch Readiness Analysis&lt;/p&gt;
+&lt;p class="hb-notebook-subtitle"&gt;Python · Kernel: Python 3 · nbformat 4.5 · 6 cells&lt;/p&gt;
+&lt;/div&gt;
+&lt;a class="hb-notebook-download" href="https://example.com/blog/notebook-onboarding/hugoblox-onboarding.ipynb" download&gt;
+&lt;svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"&gt;&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3"/&gt;&lt;/svg&gt;
+&lt;span&gt;Download notebook&lt;/span&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;dl class="hb-notebook-metadata"&gt;
+&lt;div&gt;
+&lt;dt&gt;Language&lt;/dt&gt;
+&lt;dd&gt;Python&lt;/dd&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;dt&gt;Version&lt;/dt&gt;
+&lt;dd&gt;3.11&lt;/dd&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;dt&gt;Kernel&lt;/dt&gt;
+&lt;dd&gt;Python 3 python3&lt;/dd&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;dt&gt;nbformat&lt;/dt&gt;
+&lt;dd&gt;4.5&lt;/dd&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;dt&gt;Authors&lt;/dt&gt;
+&lt;dd&gt;Ownable CMS&lt;/dd&gt;
+&lt;/div&gt;
+&lt;/dl&gt;&lt;div class="hb-notebook-body"&gt;&lt;article class="hb-notebook-cell hb-notebook-cell--markdown" data-cell-type="markdown"&gt;
+&lt;header class="hb-notebook-cell-header"&gt;
+&lt;span class="hb-notebook-pill"&gt;Markdown&lt;/span&gt;
+&lt;/header&gt;
+&lt;div class="hb-notebook-markdown prose dark:prose-invert"&gt;
+&lt;h1 id="ship-notebook-stories-in-minutes"&gt;Ship Notebook Stories in Minutes&lt;/h1&gt;
+&lt;p&gt;Hugo Blox Notebook renderer turns your &lt;code&gt;.ipynb&lt;/code&gt; experiments into beautiful long-form posts.
+Use this sample to see how markdown, code, and outputs flow together.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/article&gt;&lt;article class="hb-notebook-cell hb-notebook-cell--markdown" data-cell-type="markdown"&gt;
+&lt;header class="hb-notebook-cell-header"&gt;
+&lt;span class="hb-notebook-pill"&gt;Markdown&lt;/span&gt;
+&lt;/header&gt;
+&lt;div class="hb-notebook-markdown prose dark:prose-invert"&gt;
+&lt;ol&gt;
+&lt;li&gt;Drop notebooks inside &lt;code&gt;assets/notebooks/&lt;/code&gt; (or import them as page resources).&lt;/li&gt;
+&lt;li&gt;Reference them with &lt;code&gt;{{&amp;lt;/* notebook src=&amp;quot;your.ipynb&amp;quot; */&amp;gt;}}&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Control code, outputs, metadata badges, and download links via shortcode params.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/article&gt;&lt;article class="hb-notebook-cell hb-notebook-cell--code" data-cell-type="code"&gt;
+&lt;header class="hb-notebook-cell-header"&gt;
+&lt;span class="hb-notebook-pill"&gt;In [1]&lt;/span&gt;
+&lt;div class="hb-notebook-tags"&gt;
+&lt;span&gt;demo&lt;/span&gt;
+&lt;span&gt;quickstart&lt;/span&gt;
+&lt;/div&gt;
+&lt;/header&gt;
+&lt;div class="hb-notebook-code" data-language="python"&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;span class="lnt"&gt;4
+&lt;/span&gt;&lt;span class="lnt"&gt;5
+&lt;/span&gt;&lt;span class="lnt"&gt;6
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;math&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;accuracy&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mf"&gt;0.982&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;Collecting data...&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;Training notebook-ready block...&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;Done!&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;accuracy&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;div class="hb-notebook-outputs"&gt;&lt;pre class="hb-notebook-output hb-notebook-output--stream"&gt;&lt;code&gt;Collecting data...
+Training notebook-ready block...
+Done!
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class="hb-notebook-output hb-notebook-output--text"&gt;&lt;code&gt;0.982&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/article&gt;&lt;article class="hb-notebook-cell hb-notebook-cell--code" data-cell-type="code"&gt;
+&lt;header class="hb-notebook-cell-header"&gt;
+&lt;span class="hb-notebook-pill"&gt;In [2]&lt;/span&gt;
+&lt;/header&gt;
+&lt;div class="hb-notebook-code" data-language="python"&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;IPython.display&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;HTML&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;HTML&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;&amp;lt;div style=&amp;#39;font-family:Inter,ui-sans-serif;&amp;#39;&amp;gt;&amp;lt;strong&amp;gt;Launch Readiness:&amp;lt;/strong&amp;gt; &amp;lt;span style=&amp;#39;color:#22c55e;&amp;#39;&amp;gt;98.2&lt;/span&gt;&lt;span class="si"&gt;% c&lt;/span&gt;&lt;span class="s2"&gt;onfidence&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;em&amp;gt;Notebook blocks are theme-aware and dark-mode friendly.&amp;lt;/em&amp;gt;&amp;lt;/div&amp;gt;&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;div class="hb-notebook-outputs"&gt;
+&lt;div class="hb-notebook-output hb-notebook-output--html"&gt;&lt;div style='font-family:Inter,ui-sans-serif;'&gt;&lt;strong&gt;Launch Readiness:&lt;/strong&gt; &lt;span style='color:#22c55e;'&gt;98.2% confidence&lt;/span&gt;&lt;br&gt;&lt;em&gt;Notebook blocks are theme-aware and dark-mode friendly.&lt;/em&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/article&gt;&lt;article class="hb-notebook-cell hb-notebook-cell--code" data-cell-type="code"&gt;
+&lt;header class="hb-notebook-cell-header"&gt;
+&lt;span class="hb-notebook-pill"&gt;In [3]&lt;/span&gt;
+&lt;div class="hb-notebook-tags"&gt;
+&lt;span&gt;metrics&lt;/span&gt;
+&lt;/div&gt;
+&lt;/header&gt;
+&lt;div class="hb-notebook-code" data-language="python"&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;span class="lnt"&gt;4
+&lt;/span&gt;&lt;span class="lnt"&gt;5
+&lt;/span&gt;&lt;span class="lnt"&gt;6
+&lt;/span&gt;&lt;span class="lnt"&gt;7
+&lt;/span&gt;&lt;span class="lnt"&gt;8
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;metrics&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="s1"&gt;&amp;#39;metrics&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="s1"&gt;&amp;#39;engagement_rate&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mf"&gt;0.73&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="s1"&gt;&amp;#39;read_time_minutes&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mf"&gt;4.6&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="s1"&gt;&amp;#39;subscribers&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;1280&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;metrics&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;div class="hb-notebook-outputs"&gt;&lt;pre class="hb-notebook-output hb-notebook-output--json"&gt;&lt;code&gt;{
+"metrics": {
+"engagement_rate": 0.73,
+"read_time_minutes": 4.6,
+"subscribers": 1280
+}
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/article&gt;&lt;article class="hb-notebook-cell hb-notebook-cell--markdown" data-cell-type="markdown"&gt;
+&lt;header class="hb-notebook-cell-header"&gt;
+&lt;span class="hb-notebook-pill"&gt;Markdown&lt;/span&gt;
+&lt;/header&gt;
+&lt;div class="hb-notebook-markdown prose dark:prose-invert"&gt;
+&lt;blockquote class="border-l-4 border-neutral-300 dark:border-neutral-600 pl-4 italic text-neutral-600 dark:text-neutral-400 my-6"&gt;
+&lt;p&gt;Tip: Pair this block with Call-to-Action cards or the Embed shortcode to link to GitHub repos, datasets, or ARXIV preprints.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;/article&gt;
+&lt;/div&gt;
+&lt;div class="sr-only" data-hb-component="notebook" data-hb-version="1.0" data-hb-license="MIT"&gt;
+Powered by Hugo Blox Kit - https://github.com/HugoBlox/kit
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id="how-to-add-a-notebook"&gt;How to add a notebook&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Save your notebook.&lt;/strong&gt; Place your &lt;code&gt;.ipynb&lt;/code&gt; file in &lt;code&gt;assets/notebooks/&lt;/code&gt; (for global access) or inside a page bundle (like &lt;code&gt;content/blog/my-post/analysis.ipynb&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Add the shortcode.&lt;/strong&gt; In any Markdown page, simply use:
+&lt;code&gt;{{&amp;lt; notebook src=&amp;quot;analysis.ipynb&amp;quot; &amp;gt;}}&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Customize.&lt;/strong&gt; You can hide code cells for non-technical audiences (&lt;code&gt;show_code=false&lt;/code&gt;) or just show the output (&lt;code&gt;show_outputs=true&lt;/code&gt;).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="callout flex px-4 py-3 mb-6 rounded-md border-l-4 bg-purple-100 dark:bg-purple-900 border-purple-500"
+data-callout="important"
+data-callout-metadata=""&gt;
+&lt;span class="callout-icon pr-3 pt-1 text-purple-600 dark:text-purple-300"&gt;
+&lt;svg height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"&gt;&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 9v3.75m9-.75a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9 3.75h.008v.008H12z"/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+&lt;div class="callout-content dark:text-neutral-300"&gt;
+&lt;div class="callout-title font-semibold mb-1"&gt;Important&lt;/div&gt;
+&lt;div class="callout-body"&gt;&lt;p&gt;Hugo Blox respects your privacy. Notebook rendering happens statically at build time—no third-party services required.&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id="next-steps"&gt;Next steps&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Try it out:&lt;/strong&gt; Drop one of your existing notebooks into this site and see how it looks.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link your papers:&lt;/strong&gt; Use the Embed shortcode to link your notebook to your latest arXiv preprint or GitHub repository.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Get help:&lt;/strong&gt; Join the community on
+or check the
+.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Happy researching! 🚀&lt;/p&gt;</description></item></channel></rss>

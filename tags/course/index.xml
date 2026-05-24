@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Course |</title><link>https://example.com/tags/course/</link><atom:link href="https://example.com/tags/course/index.xml" rel="self" type="application/rss+xml"/><description>Course</description><generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 24 Sep 2025 00:00:00 +0000</lastBuildDate><image><url>https://example.com/media/icon_hu_da05098ef60dc2e7.png</url><title>Course</title><link>https://example.com/tags/course/</link></image><item><title>Learn Hugo Blox in 10 minutes!</title><link>https://example.com/courses/hugo-blox/</link><pubDate>Wed, 24 Sep 2025 00:00:00 +0000</pubDate><guid>https://example.com/courses/hugo-blox/</guid><description>&lt;p&gt;👋 Welcome to your shiny new site. Ready to learn more?&lt;/p&gt;
+&lt;p&gt;This course provides a brief introduction to creating and editing your site with Hugo Blox. For full documentation, refer to the
+.&lt;/p&gt;
+&lt;h2 id="next"&gt;Next&lt;/h2&gt;
+&lt;div class="hb-cards mt-4 grid gap-4 not-prose" style="--hb-cols: 1;"&gt;
+&lt;a
+class="hb-card group"href="getting-started" &gt;
+&lt;span class="hb-card-title pt-4 px-4"&gt;
+&lt;svg style="height: 1em; width: 1em;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"&gt;&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/&gt;&lt;/svg&gt;Get Started&lt;/span&gt;&lt;div class="hb-card-subtitle"&gt;Setup your new site in just 5 minutes!&lt;/div&gt;&lt;/a&gt;
+&lt;/div&gt;</description></item></channel></rss>
