@@ -26,7 +26,7 @@ My research interests include channel prediction and data mining, with a focus o
 
 # Selected Publications
 <!-- TODO: optional "Selected" subset; full list lives on the Publications page -->
-- **Zhangyao Song**, et al. "TempoPINN: Physics-Informed Learning for Weather Forecasting." *ICONIP 2026*, Springer CCIS (to appear).
+- Yiqian Chen\*, Chong Wang\*, Miaohong He, **Zhangyao Song**, and Tao Guo. "TempoPINN: Physics-Informed Learning for Weather Forecasting." *ICONIP 2026*, Springer CCIS (to appear).
 - **Zhangyao Song**, Xiang Zhang, Li Zhuang, et al. "Diffusion-Based Spatio-Temporal Channel Prediction via Non-Stationarity Decoupling." *IEEE Transactions on Cognitive Communications and Networking (TCCN)*, 2026. [[paper]](https://doi.org/10.1109/TCCN.2026.3685404)
 - **Zhangyao Song**, Nanqing Jiang, Miaohong He, Xiaoyu Zhao, Tao Guo. "Channel, Trend and Periodic-Wise Representation Learning for Multivariate Long-Term Time Series Forecasting." *IEEE ICASSP*, 2026. [[paper]](https://doi.org/10.1109/ICASSP55912.2026.11464481)
 - **Zhangyao Song**, Nanqing Jiang, Ziqiong Li, et al. "Frequency Interpolation with Period-aware Regularization for Robust Long-term Time Series Forecasting." *Knowledge-Based Systems (KBS)*, 2026 (accepted).
