@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 # About Me
-I am currently a Ph.D. student at the [School of Cyber Science and Engineering, Southeast University](https://www.seu.edu.cn/), Nanjing, China. Before that, I received the B.S. degree in software engineering from Zhengzhou University, Zhengzhou, China, in 2023.
+I am currently a Ph.D. student at the [School of Cyber Science and Engineering, Southeast University](https://www.seu.edu.cn/), Nanjing, China. I received the M.S. degree in cybersecurity from Southeast University in 2026, and the B.S. degree in computer science from Zhengzhou University, Zhengzhou, China, in 2023.
 
 My research interests include channel prediction and data mining, with a focus on:
 
@@ -58,22 +58,20 @@ My research interests include channel prediction and data mining, with a focus o
 {% endfor %}
 
 # Education
-- 2023.09 – present: **Ph.D. student**, School of Cyber Science and Engineering, Southeast University, Nanjing, China.
-- 2019.09 – 2023.06: **B.S. in Software Engineering**, Zhengzhou University, Zhengzhou, China.
-<!-- TODO: confirm the exact start year of your B.S. -->
+- 2026.09 – present: **Ph.D. student**, School of Cyber Science and Engineering, Southeast University, Nanjing, China.
+- 2023.09 – 2026.06: **M.S. in Cybersecurity**, School of Cyber Science and Engineering, Southeast University, Nanjing, China.
+- 2019.09 – 2023.06: **B.S. in Computer Science**, Zhengzhou University, Zhengzhou, China.
 
 # Honors and Awards
-<!-- TODO: add your awards, e.g. -->
-- 20XX: [Scholarship / Award name], Southeast University.
+- Graduate Scholarship, Southeast University (2024, 2025, 2026).
 
 # Academic Service
 Reviewer for conferences and journals, including:
 
 - **IEEE ICASSP** (IEEE International Conference on Acoustics, Speech and Signal Processing)
-- **IEEE/ACM Transactions on Communications (TCOM)**
+- **IEEE Transactions on Communications (TCOM)**
 - **AAAI Conference on Artificial Intelligence**
 - **International Conference on Neural Information Processing (ICONIP)**
 
 # Internships
-<!-- TODO: add internship experience -->
-- 20XX.XX – 20XX.XX: Research Intern, [Company / Lab], [City].
+- 2025.04 – 2025.09: AI Algorithm Engineering Intern, Shenzhen Huasi Technology Co., Ltd., Shenzhen, China. Built LLM workflow prototypes for environmental monitoring and decision support on Dify; designed prediction models for CO2, SO2 and PM2.5.
